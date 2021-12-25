@@ -9,7 +9,7 @@ function Card(props) {
 
     return (
 
-        < div className={"card" + (isSelected && "selected")}>
+        < div className={"card " + (isSelected && " selected")}>
             <p className="card-title">{tarif}</p>
             <p className="card-price"><span>руб</span> {price} <span>/мес</span></p>
             <p className="card-volume">до {speed} Мбит/сек</p>
